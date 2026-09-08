@@ -3,9 +3,6 @@
     "frontend": {
       "root": ".",
       "framework": "vite"
-    },
-    "backend": {
-      "root": "backend"
     }
   },
   "rewrites": [
