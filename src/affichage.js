@@ -65,7 +65,7 @@ export function addQuestionHtml(data, nbQuestion, divID) {
 
   div.innerHTML += optionsHTML;
   div.innerHTML += `
-    <div id="good-girl">
+    <div id="bien joué!">
       <button id="valide" class="btn">Valider</button>
     </div>`;
 }
@@ -75,7 +75,7 @@ export function goodGirl(divID) {
   const div = document.getElementById(divID);
   div.innerHTML = `
     <div id="answerMessage">
-      <p>Bonne fille</p>
+      <p>Bien joué !</p>
     </div>
     <button id="next-question">Question suivante</button>
   `;
@@ -91,7 +91,7 @@ export function badGirl(divID, data, nbQuestion) {
     .join(", ");
   div.innerHTML = `
     <div id="answerMessage">
-      <p>Mauvaise fille</p>
+      <p>Mauvaise réponse...</p>
       <p>La bonne réponse était :${correctAnswers}</p>
     </div>
     <button id="next-question">Question suivante</button>
