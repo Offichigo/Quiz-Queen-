@@ -65,7 +65,7 @@ export function addQuestionHtml(data, nbQuestion, divID) {
 
   div.innerHTML += optionsHTML;
   div.innerHTML += `
-    <div id="bien joué!">
+    <div id="good-girl">
       <button id="valide" class="btn">Valider</button>
     </div>`;
 }

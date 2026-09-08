@@ -4,6 +4,5 @@
 
 import "./style.css";
 import { init } from "./affichage.js";
-import { state } from "./state.js";
 
 init();
